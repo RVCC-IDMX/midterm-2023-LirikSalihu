@@ -1,0 +1,71 @@
+body {font-family: Baloo 2;
+    background-color:black; 
+color:red;}
+
+
+h1, h2, h3, h4, h5, h6 {font-family:"Shantell Sans";
+    font-size: 30pt;}
+    h2 {font-size: 30pt;}
+
+
+
+    header {text-align: center;
+    font-size: 20pt;}
+
+    #hero, footer {text-align: center;
+        font-size: 20pt;
+    background-color:red;
+padding: 10px;
+color:lawngreen;
+border: 6px solid lawngreen;}
+
+    #hero img {width: 600px; height: 400px;}
+
+    #trophies {
+    text-align: left;
+    font-size: 20pt;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 500px;}
+    #trophies ul li:nth-child(odd) {color:lawngreen;}
+
+#legends img {max-width: 100%;}
+#legends {border: 5px dashed lawngreen;}
+
+
+@media screen and {min-width: 60cm; }
+figure {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+figcaption {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-left: 1rem;
+}
+
+figure img {width: 70%;}
+    
+#lit div {max-width: 100%;
+columns: 20rem;}
+
+#legends {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+hr {
+    display: none;
+}
+
+#legends h2 {
+    grid-column: 1/-1;
+}
+
+figure {
+    display: block;
+}

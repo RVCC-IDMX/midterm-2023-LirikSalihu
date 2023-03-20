@@ -1,6 +1,6 @@
 
-# Created by https://www.toptal.com/developers/gitignore/api/node,windows,macos,linux
-# Edit at https://www.toptal.com/developers/gitignore?templates=node,windows,macos,linux
+# Created by https://www.toptal.com/developers/gitignore/api/node,macos,windows,linux,vscode
+# Edit at https://www.toptal.com/developers/gitignore?templates=node,macos,windows,linux,vscode
 
 ### Linux ###
 *~
@@ -119,9 +119,11 @@ typings/
 # dotenv environment variables file
 .env
 .env.test
+.env*.local
 
 # parcel-bundler cache (https://parceljs.org/)
 .cache
+.parcel-cache
 
 # Next.js build output
 .next
@@ -154,6 +156,14 @@ dist
 # Stores VSCode versions used for testing VSCode extensions
 .vscode-test
 
+### vscode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
 ### Windows ###
 # Windows thumbnail cache files
 Thumbs.db
@@ -180,4 +190,6 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.toptal.com/developers/gitignore/api/node,windows,macos,linux
+# End of https://www.toptal.com/developers/gitignore/api/node,macos,windows,linux,vscode
+
+#

@@ -1,1 +1,4 @@
-# IDMX 225 Midterm
+# README
+
+
+Lirik Salihu
